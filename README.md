@@ -22,16 +22,16 @@
 ## 📋 Índice
 
 - [Visão Geral](#visão-geral)
-- [Funcionalidades](#funcionalidades-✨)
-- [Tecnologias](#tecnologias-🛠️)
-- [Arquitetura](#arquitetura-🏗️)
-- [Instalação](#instalação-🚀)
+- [Funcionalidades](#funcionalidades✨)
+- [Tecnologias](#tecnologias🛠️)
+- [Arquitetura](#arquitetura 🏗️)
+- [Instalação](#instalação🚀)
 - [Uso](#uso-📖)
-- [API Reference](#api-reference-🔗)
-- [Exemplos](#exemplos-💡)
-- [Segurança](#segurança-🛡️)
-- [Contribuição](#contribuição-🤝)
-- [Licença](#licença-📄)
+- [API Reference](#api-reference🔗)
+- [Exemplos](#exemplos 💡)
+- [Segurança](#segurança 🛡️)
+- [Contribuição](#contribuição 🤝)
+- [Licença](#licença 📄)
 
 ## Visão Geral
 
