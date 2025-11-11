@@ -10,7 +10,7 @@
 
 ---
 
-# 🧩 API Fusion Platform 🔄
+# 🧩 API Fusion Platform
 
 ![PHP](https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -22,7 +22,7 @@
 ## 📋 Índice
 
 - [Visão Geral](#visão-geral)
-- [Funcionalidades](#funcionalidades ✨)
+- [Funcionalidades](#funcionalidades-✨)
 - [Tecnologias](#tecnologias🛠️)
 - [Arquitetura](#arquitetura 🏗️)
 - [Instalação](#instalação🚀)
