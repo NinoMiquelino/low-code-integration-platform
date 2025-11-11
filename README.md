@@ -21,18 +21,18 @@
 
 ## 📋 Índice
 
-- [Visão Geral](#visão-geral)
-- [Funcionalidades](#funcionalidades-✨)
-- [Tecnologias](#tecnologias🛠️)
-- [Arquitetura](#arquitetura 🏗️)
-- [Instalação](#instalação🚀)
-- [Uso](#uso-📖)
-- [API Reference](#api-reference🔗)
-- [Exemplos](#exemplos 💡)
-- [Segurança](#segurança 🛡️)
-- [Contribuições](#contribuições-🤝)
+- [Visão Geral](#visao-geral)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias](#tecnologias)
+- [Arquitetura](#arquitetura)
+- [Instalação](#instalacao)
+- [Uso](#uso)
+- [API Reference](#api-reference)
+- [Exemplos](#exemplos)
+- [Segurança](#seguranca)
+- [Contribuições](#contribuicoes)
 
-## Visão Geral
+## Visão Geral {#visao-geral}
 
 A **API Fusion Platform** é uma solução inovadora que combina conceitos low-code com desenvolvimento tradicional de APIs, permitindo que empresas integrem sistemas corporativos heterogêneos (CRM, ERP, RH) de forma segura, rápida e eficiente através de uma interface visual intuitiva.
 
@@ -44,7 +44,7 @@ A **API Fusion Platform** é uma solução inovadora que combina conceitos low-c
 - **Fornecer visibilidade completa** sobre fluxos de dados
 - **Oferecer flexibilidade** para cenários complexos de integração
 
-## Funcionalidades ✨
+## Funcionalidades ✨ {#funcionalidades}
 
 ### 🎛️ Painel de Controle Unificado
 - Dashboard visual com métricas de integração
@@ -75,7 +75,7 @@ A **API Fusion Platform** é uma solução inovadora que combina conceitos low-c
 - **Múltiplos níveis** de autenticação
 - **Criptografia** de credenciais sensíveis
 
-## Tecnologias 🛠️
+## Tecnologias 🛠️ {#tecnologias}
 
 ### Backend
 - **PHP 8.0+** - Lógica de servidor e APIs
@@ -95,7 +95,7 @@ A **API Fusion Platform** é uma solução inovadora que combina conceitos low-c
 - **Sanitização de Dados** - Limpeza de entradas
 - **Headers de Segurança** - Proteções HTTP
 
-## Arquitetura 🏗️
+## Arquitetura 🏗️ {#arquitetura}
 
 ```
 
@@ -129,7 +129,7 @@ A **API Fusion Platform** é uma solução inovadora que combina conceitos low-c
 4. **Transformação** → Dados são convertidos e validados
 5. **Retorno** → Respostas formatadas para frontend
 
-## Instalação 🚀
+## Instalação 🚀 {#instalacao}
 
 ### Pré-requisitos
 - Servidor web (Apache/Nginx)
@@ -176,7 +176,7 @@ A **API Fusion Platform** é uma solução inovadora que combina conceitos low-c
    http://localhost/low-code-integration-platform/frontend/
    ```
 
-Uso 📖
+Uso 📖 {#uso}
 
 🎯 Primeiros Passos
 
@@ -211,7 +211,7 @@ graph TD
     E --> F[Implementar Solução]
 ```
 
-API Reference 🔗
+## API Reference 🔗 {#api-reference}
 
 Endpoints Principais
 
@@ -259,7 +259,7 @@ Parâmetros:
 
 · source: crm, erp ou hr
 
-Exemplos 💡
+## Exemplos 💡 {#exemplos}
 
 Caso de Uso 1: Integração CRM-ERP
 
@@ -306,7 +306,7 @@ class GeneratedAPI {
 ?>
 ```
 
-Segurança 🛡️
+## Segurança 🛡️ {#seguranca}
 
 Medidas Implementadas
 
@@ -361,7 +361,7 @@ Medidas Implementadas
 
 ---
 
-## 🤝 Contribuições
+## Contribuições 🤝 {#contribuicoes}
 Contribuições são sempre bem-vindas!  
 Sinta-se à vontade para abrir uma [*issue*](https://github.com/NinoMiquelino/low-code-integration-platform/issues) com sugestões ou enviar um [*pull request*](https://github.com/NinoMiquelino/low-code-integration-platform/pulls) com melhorias.
 
