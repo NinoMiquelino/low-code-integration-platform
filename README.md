@@ -19,20 +19,7 @@
 
 **Sistema completo de integração low-code que demonstra na prática como conectar soluções visuais com APIs personalizadas para integração segura entre sistemas corporativos.**
 
-## 📋 Índice
-
-- [Visão Geral](#visao-geral)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias](#tecnologias)
-- [Arquitetura](#arquitetura)
-- [Instalação](#instalacao)
-- [Uso](#uso)
-- [API Reference](#api-reference)
-- [Exemplos](#exemplos)
-- [Segurança](#seguranca)
-- [Contribuições](#contribuicoes)
-
-## Visão Geral {#visao-geral}
+## Visão Geral 
 
 A **API Fusion Platform** é uma solução inovadora que combina conceitos low-code com desenvolvimento tradicional de APIs, permitindo que empresas integrem sistemas corporativos heterogêneos (CRM, ERP, RH) de forma segura, rápida e eficiente através de uma interface visual intuitiva.
 
@@ -44,7 +31,7 @@ A **API Fusion Platform** é uma solução inovadora que combina conceitos low-c
 - **Fornecer visibilidade completa** sobre fluxos de dados
 - **Oferecer flexibilidade** para cenários complexos de integração
 
-## Funcionalidades ✨ {#funcionalidades}
+## Funcionalidades ✨ 
 
 ### 🎛️ Painel de Controle Unificado
 - Dashboard visual com métricas de integração
@@ -75,7 +62,7 @@ A **API Fusion Platform** é uma solução inovadora que combina conceitos low-c
 - **Múltiplos níveis** de autenticação
 - **Criptografia** de credenciais sensíveis
 
-## Tecnologias 🛠️ {#tecnologias}
+## Tecnologias 🛠️ 
 
 ### Backend
 - **PHP 8.0+** - Lógica de servidor e APIs
@@ -95,7 +82,7 @@ A **API Fusion Platform** é uma solução inovadora que combina conceitos low-c
 - **Sanitização de Dados** - Limpeza de entradas
 - **Headers de Segurança** - Proteções HTTP
 
-## Arquitetura 🏗️ {#arquitetura}
+## Arquitetura 🏗️ 
 
 ```
 
@@ -129,7 +116,7 @@ A **API Fusion Platform** é uma solução inovadora que combina conceitos low-c
 4. **Transformação** → Dados são convertidos e validados
 5. **Retorno** → Respostas formatadas para frontend
 
-## Instalação 🚀 {#instalacao}
+## Instalação 🚀 
 
 ### Pré-requisitos
 - Servidor web (Apache/Nginx)
@@ -211,7 +198,7 @@ graph TD
     E --> F[Implementar Solução]
 ```
 
-## API Reference 🔗 {#api-reference}
+## API Reference 🔗 
 
 Endpoints Principais
 
@@ -259,7 +246,7 @@ Parâmetros:
 
 · source: crm, erp ou hr
 
-## Exemplos 💡 {#exemplos}
+## Exemplos 💡 
 
 Caso de Uso 1: Integração CRM-ERP
 
@@ -306,7 +293,7 @@ class GeneratedAPI {
 ?>
 ```
 
-## Segurança 🛡️ {#seguranca}
+## Segurança 🛡️ 
 
 Medidas Implementadas
 
@@ -361,7 +348,7 @@ Medidas Implementadas
 
 ---
 
-## Contribuições 🤝 {#contribuicoes}
+## Contribuições 🤝 
 Contribuições são sempre bem-vindas!  
 Sinta-se à vontade para abrir uma [*issue*](https://github.com/NinoMiquelino/low-code-integration-platform/issues) com sugestões ou enviar um [*pull request*](https://github.com/NinoMiquelino/low-code-integration-platform/pulls) com melhorias.
 
