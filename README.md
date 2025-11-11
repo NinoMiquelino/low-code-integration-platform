@@ -30,7 +30,7 @@
 - [API Reference](#api-reference🔗)
 - [Exemplos](#exemplos 💡)
 - [Segurança](#segurança 🛡️)
-- [Contribuição](#contribuições 🤝)
+- [Contribuições](#contribuições-🤝)
 
 ## Visão Geral
 
