@@ -344,7 +344,6 @@ Medidas Implementadas
 "Democratizando integrações corporativas através do low-code" 🚀
 
 </div>
-```
 
 ---
 
