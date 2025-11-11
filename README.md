@@ -22,7 +22,7 @@
 ## 📋 Índice
 
 - [Visão Geral](#visão-geral)
-- [Funcionalidades](#funcionalidades✨)
+- [Funcionalidades](#funcionalidades ✨)
 - [Tecnologias](#tecnologias🛠️)
 - [Arquitetura](#arquitetura 🏗️)
 - [Instalação](#instalação🚀)
