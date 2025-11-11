@@ -1,0 +1,292 @@
+# ===============================
+# API Fusion Platform - .gitignore
+# ===============================
+
+# =============
+# Ambiente PHP
+# =============
+
+# Dependências do Composer
+/vendor/
+composer.lock
+composer.phar
+
+# Cache do Composer
+/.composer/cache/
+
+# Arquivos de configuração local
+/config/database.local.php
+/config/config.local.php
+*.local.php
+*.env
+.env.local
+.env.production
+.env.development
+
+# Logs do PHP
+*.log
+php_errors.log
+
+# Session files
+/sess_*
+
+# =============
+# Ambiente Frontend
+# =============
+
+# Dependências npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache de pacotes
+.npm/
+.yarn/
+
+# Build outputs
+/dist/
+/build/
+/out/
+
+# =============
+# Banco de Dados
+# =============
+
+# Arquivos de banco de dados
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+
+# Dumps e backups
+*.sql
+*.dump
+backup/
+database-backup/
+
+# =============
+# Servidor/Ambiente
+# =============
+
+# Apache/Nginx
+.htaccess
+.htpasswd
+nginx.conf
+apache.conf
+
+# Servidor embutido PHP
+php-server.pid
+
+# =============
+# IDE/Editores
+# =============
+
+# PHPStorm
+.idea/
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+/nbproject/private/
+
+# =============
+# Sistema Operacional
+# =============
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# =============
+# Arquivos Temporários
+# =============
+
+# Cache
+.cache/
+*.tmp
+*.temp
+
+# Sessões
+/tmp/
+/sessions/
+
+# Uploads temporários
+/uploads/temp/
+/temp/
+
+# =============
+# Segurança
+# =============
+
+# Chaves e certificados
+*.key
+*.pem
+*.crt
+*.cert
+*.pub
+*.priv
+
+# Senhas e credenciais
+*password*
+*credential*
+*secret*
+*key*
+config.ini
+secrets.json
+
+# =============
+# Documentação
+# =============
+
+# Arquivos de documentação gerados
+/docs/_build/
+/docs/generated/
+
+# =============
+# Logs da Aplicação
+# =============
+
+/logs/
+*.log
+debug.log
+error_log
+
+# Logs específicos do projeto
+application.log
+api.log
+integration.log
+
+# =============
+# Backup e Arquivos de Desenvolvimento
+# =============
+
+# Arquivos de backup
+*.backup
+*.bak
+*.old
+*.orig
+*.save
+
+# Arquivos de desenvolvimento
+*.dev
+*.development
+/test/
+/tests/tmp/
+
+# =============
+# Uploads (em desenvolvimento)
+# =============
+
+# Apenas em desenvolvimento - em produção isso deve ser versionado
+/uploads/
+/storage/app/public/
+
+# =============
+# Cache da Aplicação
+# =============
+
+/cache/
+/frontend/cache/
+/backend/cache/
+*.cache
+
+# =============
+# Métricas e Análise
+# =============
+
+# Coverage reports
+/coverage/
+*.lcov
+
+# Profiling
+*.xgprof
+*.prof
+
+# =============
+# Docker (se aplicável)
+# =============
+
+docker-compose.override.yml
+.docker/
+
+# =============
+# Usuário específico
+# =============
+
+# Arquivos de usuário (descomente se necessário)
+# user.config.php
+# user.settings.php
+
+# ===============================
+# INSTRUÇÕES PARA CONFIGURAÇÃO
+# ===============================
+
+# Arquivos que DEVEM ser versionados (não ignorar):
+# ✅ config/database.php (template)
+# ✅ frontend/index.html
+# ✅ backend/api/*.php
+# ✅ backend/models/*.php
+# ✅ frontend/js/*.js
+# ✅ frontend/css/*.css
+# ✅ README.md
+# ✅ LICENSE
+
+# Arquivos que NÃO devem ser versionados:
+# ❌ Qualquer arquivo com senhas/chaves
+# ❌ Arquivos de ambiente (.env)
+# ❌ Logs da aplicação
+# ❌ Cache e arquivos temporários
+# ❌ Dependências (vendor/, node_modules/)
+
+# ===============================
+# COMO USAR ESTE .gitignore
+# ===============================
+
+# 1. Coloque este arquivo na raiz do projeto
+# 2. Certifique-se de commitar apenas arquivos necessários
+# 3. Para arquivos de configuração, use templates:
+#    - config/database.php.example
+#    - .env.example
+
+# ===============================
+# NOTAS ESPECÍFICAS DO PROJETO
+# ===============================
+
+# Para este projeto de integração low-code, é CRÍTICO que:
+# - Credenciais de API NUNCA sejam commitadas
+# - Configurações de banco de dados locais sejam ignoradas
+# - Logs sensíveis não sejam versionados
+# - Arquivos temporários de integração sejam excluídos
+
+# Arquivos específicos do projeto a serem ignorados:
+/integration-cache/
+/api-keys/
+/connection-logs/
